@@ -1,0 +1,163 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf');
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+.picture {
+    background-image: url("leaf.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex: 1;
+    color: white;
+}
+
+.picture p {
+    font-family:'Norse-Bold';
+    font-size: 120px;
+    color:white;
+}
+
+.logo {
+    display: flex;
+    background: black;
+    height:150px;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    width:100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin:0;
+}
+
+.top {
+    flex: 1;
+    padding-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-right: 20%;
+    background-color: #f8fbfc;
+    padding-left: 5%;
+}
+
+.middle {
+    flex: 1;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    box-shadow: 1.2px 2.4px 2.4px hsl(0deg 0% 0% / 0.46);
+}
+
+form {
+    display:flex;
+    gap: 70px;
+}
+
+.rowone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rowone div {
+    display: flex;
+    flex-direction:column;
+}
+
+.rowtwo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rowtwo div {
+    display: flex;
+    flex-direction:column;
+}
+
+.middle p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.bottom {
+    margin-top: 2.4px;
+    flex: 1;
+    background-color: #f8fbfc;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+input {
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    padding: 5px;
+    font-size: large;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+input:invalid {
+    border-color:red;
+}
+
+button {
+    padding: 15px 40px;
+    text-align: center;
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 1px solid;
+    font-size: 15pt;
+}
+
+a {
+    color:#596D48;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.error {
+    border-color: red;
+}
+
+img {
+    height: 140px;
+    width: auto;
+}
+
+#credit {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+}
+
+#credit a {
+    color:inherit;
+    text-decoration: underline;
+}
